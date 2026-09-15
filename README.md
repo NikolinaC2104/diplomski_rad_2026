@@ -11,13 +11,15 @@ Za izradu implementacije korišteni su:
 - **Docker** - za pokretanje lokalne Neo4j instance koju je moguće reproducirati
 
 ## Struktura repozitorija
-`sql/01_create_shema.sql` - sadrži kod za kreiranje tablica, primarne i strane ključeve
-`sql/02_insert_data.sql` - sadrži kod za unos bibliografskih podataka
-`sql/03_queries_U1-U8.sql` - sadrži kod za izvođenje upita koji su korišteni u usporedbi
+- `sql/01_create_shema.sql` - sadrži kod za kreiranje tablica, primarne i strane ključeve
+- `sql/02_insert_data.sql` - sadrži kod za unos bibliografskih podataka
+- `sql/03_queries_U1-U8.sql` - sadrži kod za izvođenje upita koji su korišteni u usporedbi
 
-`cypher/01_constraints.cypher` - kod za definiranje ograničenja jedinstvenosti
-`cypher/02_insert_data.cypher` - kod za kreiranje čvorova, svojstava i veza
-`cypher/03_queries_U1-U8.cypher` - kod za izvođenje funkcionalno ekvivalentnih Cypher upita
+- `cypher/01_constraints.cypher` - kod za definiranje ograničenja jedinstvenosti
+- `cypher/02_insert_data.cypher` - kod za kreiranje čvorova, svojstava i veza
+- `cypher/03_queries_U1-U8.cypher` - kod za izvođenje funkcionalno ekvivalentnih Cypher upita
+- `docker-compose.yml` - 
+- `.env.example` - 
 
 ## Relacijska implementacija - PostgreSQL/DBeaver
 Sve SQL skripte se nalaze u direktoriju `sql`.
