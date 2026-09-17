@@ -19,10 +19,10 @@ Za izradu implementacije korišteni su:
 - `cypher/01_ogranicenja.cypher` - kod za definiranje ograničenja jedinstvenosti
 - `cypher/02_unos_podataka_graf.cypher` - kod za kreiranje čvorova, svojstava i veza
 - `cypher/03_upiti_U1-U8_graf.cypher` - kod za izvođenje funkcionalno ekvivalentnih Cypher upita
-- `docker-compose.yml` - za pokretanje Neo4j instance u Dockeru
-- `.env.example` - kao predložak za vlastitu .env datoteku s lozinkom
 - `FRBR_upiti.md` - sadrži funkcionalne upite na temelju kojih se izvršavala usporedba
 - `README.md` - upute za pokretanje i redoslijed izvršavanja
+- `docker-compose.yml` - za pokretanje Neo4j instance u Dockeru
+- `.env.example` - kao predložak za vlastitu .env datoteku s lozinkom
 
 ## Relacijska implementacija - PostgreSQL/DBeaver
 Sve SQL skripte se nalaze u direktoriju `sql`.
